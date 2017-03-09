@@ -1,9 +1,7 @@
 # LXChatBox
 
 ![image](https://github.com/liuxinixn/LXChatBox/blob/master/LXChatBox/%E9%94%AE%E7%9B%98.gif)
-
-
-
+文章简介：http://www.jianshu.com/p/d61962517cb6
 
 
 
