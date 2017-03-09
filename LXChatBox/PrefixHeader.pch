@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  LXChatBox
+//
+//  Created by zlwl001 on 2017/3/7.
+//  Copyright © 2017年 manman. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "LXChatServerDefs.h"
+
+#define LBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define LBRandomColor LBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define KScreenW [[UIScreen mainScreen]bounds].size.width
+#define KScreenH [[UIScreen mainScreen]bounds].size.height
+#define Font(x) [UIFont systemFontOfSize:(x)]
+#import "UIImage+Extension.h"
+#import "UIView+Frame.h"
+#import "MJExtension.h"
+#import "NSString+Extension.h"
+#endif /* PrefixHeader_pch */
