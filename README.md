@@ -1,6 +1,6 @@
 # LXChatBox
 
-！[image](https://github.com/liuxinixn/LXChatBox/blob/master/LXChatBox/%E9%94%AE%E7%9B%98.gif)
+![image](https://github.com/liuxinixn/LXChatBox/blob/master/LXChatBox/%E9%94%AE%E7%9B%98.gif)
 
 self.chatBox =[[LXChatBox alloc]initWithFrame:CGRectMake(0, KScreenH - HEIGHT_TABBAR, KScreenW, HEIGHT_TABBAR)];
     //设置最大行数限制（稍后会优化）
