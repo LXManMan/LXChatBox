@@ -45,6 +45,7 @@
     [self.tableview reloadData];
 
 }
+#pragma mark--- 代理---
 -(void)changeStatusChat:(CGFloat)chatBoxY{
     
     self.tableview.frame = CGRectMake(0, 64, KScreenW, chatBoxY - 20-64);
